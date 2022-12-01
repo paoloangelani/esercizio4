@@ -20,13 +20,17 @@
         <div class="box box1">
             <img src="img/logo.svg" alt="">
             <p id="title">EPICODE - IL BLOG DEI DEVELOPERS</p>
-            <p id="menu">Home</p>
-            <p id="menu">Articoli</p>
-            <p id="menu">Lavora con noi</p>
+
+            <section>
+                <p id="menu">Home</p>
+                <p id="menu">Articoli</p>
+                <p id="menu">Lavora con noi</p>
+            </section>
+
         </div>
     </header>
 
-    <main class="box">
+    <main>
         <h1>Come creare un <br> template per i post</h1>
 
         <nav>
@@ -34,41 +38,45 @@
         </nav>
 
         <aside>
-            <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <strong>parti
-                    comuni</strong> da
-                applicare a tutte le pagine</p>
+            <div>
+                <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le
+                    <strong>parti
+                        comuni</strong> da
+                    applicare a tutte le pagine.
+                </p>
+            </div>
             <p>Le varie aree saranno quindi suddivise in:</p>
         </aside>
 
-        <section>
-            <ul>
-                <li>Contenuti di intestazione del tag
-                    <div class="header">header</div>
-                </li>
-                <li>Contenuti centrali variabili del tag
-                    <div class="main">main</div>
-                </li>
-                <li>contenuti di fine pagina comuni, da inserire nel tag
-                    <div class="footer">footer</div>
-                </li>
-            </ul>
-        </section>
+
+        <ul>
+            <li>Contenuti di intestazione del tag
+                <div class="header">header</div>
+            </li>
+            <li>Contenuti centrali variabili del tag
+                <div class="main">main</div>
+            </li>
+            <li>contenuti di fine pagina comuni, da inserire nel tag
+                <div class="footer">footer</div>
+            </li>
+        </ul>
+
 
         <aside>
-            <p>formattazione del codice</p>
+            <h5>Formattazione del codice</h5>
             <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <strong>selezionare in
                     CSS.</strong>
                 perciò i passi saranno:</p>
             <aside>
 
-                <section>
-                    <ol>
-                        <li>progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato
-                        </li>
-                        <li>scrivere l' HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
-                        <li>applicare gli stili CSS</li>
-                    </ol>
-                </section>
+
+                <ol>
+                    <li>progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato
+                    </li>
+                    <li>scrivere l' HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+                    <li>applicare gli stili CSS</li>
+                </ol>
+
 
                 <aside>
                     <p>l'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè
@@ -79,12 +87,13 @@
                 <h3>Diffusione dei CSS</h3>
 
                 <table>
-                    <tbody>
+                    <thead>
                         <tr>
                             <th>Anno</th>
                             <th>% di utilizzo</th>
                             <th>supporto browser</th>
                         </tr>
+                    <tbody>
                         <tr>
                             <td>2000</td>
                             <td>20%</td>
