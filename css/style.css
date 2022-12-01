@@ -141,6 +141,7 @@ table {
 
 body {
     -webkit-text-size-adjust: none;
+    line-height: 1.5;
 }
 
 .box1 {
@@ -148,18 +149,18 @@ body {
     height: 305px;
     background-color: dodgerblue;
     padding: 30px;
-    margin: 31px auto;
+    margin: 12px auto;
     text-align: center;
     box-shadow: 1px 1px 5px 1px;
 
 }
 
-.box2 {
+main {
     width: 371px;
-    height: 1200px;
+    height: 1440px;
     background-color: rgb(254, 254, 254);
     padding: 30px;
-    margin: 31px auto;
+    margin: 5px auto;
     text-align: center;
     box-shadow: 1px 1px 5px 1px;
 }
@@ -169,6 +170,6 @@ img {
     height: 117px;
 }
 
-video {
-    border-radius: 2%;
+.video {
+    border-radius: 50%;
 }
