@@ -159,6 +159,10 @@ section {
     margin-top: 50px;
 }
 
+#title {
+    font-weight: bold;
+}
+
 main {
     width: 371px;
     height: 1840px;
@@ -256,4 +260,5 @@ footer div {
     height: 98px;
     margin: auto;
     border: 3px;
+    border-radius: 5px
 }
