@@ -147,7 +147,7 @@ body {
 .box1 {
     width: 371px;
     height: 305px;
-    background-color: dodgerblue;
+    background-image: linear-gradient(to top right, #FFFFFF 0%, #1815df 50%, #AACFEF 100%);
     padding: 30px;
     margin: 12px auto;
     text-align: center;
@@ -157,10 +157,12 @@ body {
 
 section {
     margin-top: 50px;
+    color: white;
 }
 
 #title {
     font-weight: bold;
+    color: white;
 }
 
 main {
