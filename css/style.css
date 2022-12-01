@@ -157,12 +157,28 @@ body {
 
 main {
     width: 371px;
-    height: 1440px;
+    height: 1510px;
     background-color: rgb(254, 254, 254);
     padding: 30px;
     margin: 5px auto;
     text-align: center;
     box-shadow: 1px 1px 5px 1px;
+}
+
+h1 {
+    font-size: 200%;
+    margin-bottom: 10%;
+}
+
+nav {
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+
+aside {
+    justify-items: left;
 }
 
 img {
